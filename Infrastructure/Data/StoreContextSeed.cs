@@ -16,7 +16,7 @@ namespace Infrastructure.Data
         public static async Task SeedAsync(StoreContext context, ILoggerFactory loggerFactory)
         {
 			try
-			{
+			{/*
 				if (!context.ProductBrands.Any())
 				{
 					var brandsData = File.ReadAllText("../Infrastructure/Data/SeedData/brands.json");
@@ -41,7 +41,7 @@ namespace Infrastructure.Data
 						context.ProductTypes.Add(item);
 					}
 					await context.SaveChangesAsync();
-				}
+				}*/
 				
 				if (!context.Products.Any())
 				{
