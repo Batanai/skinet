@@ -24,12 +24,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Content\**" CopyToPublishDirectory="PreserveNewest"/>
+    <Content Include="Content\**" CopyToPublishDirectory="PreserveNewest" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>8d99ee3c-e64d-4870-ac48-283e2c8cea6c</UserSecretsId>
   </PropertyGroup>
 
 
